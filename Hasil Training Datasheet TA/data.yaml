@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['Dilarang Belok Kanan', 'Dilarang Belok Kiri', 'Dilarang Masuk', 'Lampu Hijau', 'Lampu Kuning', 'Lampu Merah', 'Rambu Berhenti', 'Rambu Penyebrangan']
+
+roboflow:
+  workspace: diw
+  project: datasheet-ta
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/diw/datasheet-ta/dataset/3
